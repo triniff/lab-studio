@@ -31,7 +31,7 @@ h2, h4{
 	color: #fff;
 	font-size: 15px;
 }
-.navbar-brand{
+.navbar-default .navbar-brand{
 	font-family: 'Kaushan Script', cursive;
 	font-size: 30px;
 	color: #fec503;
@@ -111,4 +111,35 @@ header h1{
 }
 .portfolio-text .serif-text{
 	margin-top: -20px;
+}
+/*ABOUT*/
+.img-about{
+	border-radius: 100%;
+	width: 20%;
+}
+#about{
+	text-align: right;
+}
+div[class*="align-"]{
+	margin: 0;
+	padding: 0;
+}
+.text-right{
+	text-align: right;
+}
+.align-right{
+	float: left;
+}
+.align-right img{
+	float: right;
+	margin-left: 40px;
+}
+.text-left{
+	text-align: left;
+}
+.align-left{
+	float: right;
+}
+.align-left img{
+	float: left;
 }
