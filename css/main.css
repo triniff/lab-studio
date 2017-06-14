@@ -1,0 +1,91 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Droid Serif', serif;
+font-family: 'Kaushan Script', cursive;
+
+*/
+/*GENERAL*/
+*{
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+.serif-text{
+	font-family: 'Droid Serif', serif;
+	font-style: italic;
+}
+h2, h4{
+	font-weight: 700;
+	margin: 20px 0px;
+}
+/*NAV*/
+.navbar{
+	background-color: transparent;
+}
+.navbar-default{
+	margin: 0;
+	border: none;
+	padding: 20px 0px;
+}
+.navbar-default.navbar ul li a{
+	color: #fff;
+	font-size: 15px;
+}
+.navbar-brand{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 30px;
+	color: #fec503;
+}
+
+/* 1 HEADER*/
+header{
+	background-image: url(../img/header-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	text-align: center;
+	color: #fff;
+}
+
+header h4{
+	font-size: 40px;
+	margin: 20px 0px;
+}
+header h1{
+	font-weight: 700;
+	font-size: 60px;
+}
+.welcome{
+	margin-top: 200px;
+}
+.btn-header{
+	background-color: #fed136;
+	padding: 20px 40px;
+	font-weight: 700;
+	font-size: 20px;
+	border-radius: 5px;
+	margin: 50px 0;
+}
+.btn-header:hover{
+	background-color: #f7b617;
+	color: #fff;
+}
+/*Services*/
+#services{
+	padding: 50px 0px;
+	line-height: 25px;
+}
+.services-info{
+	padding: 30px;
+	line-height: 40px;
+}
+.services-text i{
+	font-size: 50px;
+	color: #fff;
+	background-color:#fed136;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	padding: 20px 0px;
+	margin-top: 20px;
+}
