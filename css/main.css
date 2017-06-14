@@ -71,13 +71,13 @@ header h1{
 	color: #fff;
 }
 /*Services*/
-#services{
+#services, #portfolio{
 	padding: 50px 0px;
 	line-height: 25px;
 }
-.services-info{
-	padding: 30px;
-	line-height: 40px;
+.info-section{
+	padding: 40px;
+	line-height: 20px;
 }
 .services-text i{
 	font-size: 50px;
@@ -88,4 +88,25 @@ header h1{
 	border-radius: 100%;
 	padding: 20px 0px;
 	margin-top: 20px;
+}
+/*PORTFOLIO*/
+#portfolio{
+	background-color: #eeeeee;
+	height: auto;
+	padding: 50px 0px;
+}
+.port-pic{
+	margin: 30px 0px;
+}
+.portfolio-text{
+	background-color: #fff;
+    padding: 0;
+    margin: 0px 10px;
+    width: 30%;
+}
+.portfolio-text .serif-text{
+	margin-top: -20px;
+}
+.port-pic img{
+	width: 340px;
 }
