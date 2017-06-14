@@ -9,6 +9,7 @@ font-family: 'Kaushan Script', cursive;
 	padding: 0;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
+	color: #333333;
 }
 .serif-text{
 	font-family: 'Droid Serif', serif;
@@ -17,6 +18,9 @@ font-family: 'Kaushan Script', cursive;
 h2, h4{
 	font-weight: 700;
 	margin: 20px 0px;
+}
+p{
+	color: #777777;
 }
 /*NAV*/
 .navbar{
@@ -50,10 +54,12 @@ header{
 header h4{
 	font-size: 40px;
 	margin: 20px 0px;
+	color: #fff;
 }
 header h1{
 	font-weight: 700;
 	font-size: 60px;
+	color: #fff;
 }
 .welcome{
 	margin-top: 200px;
@@ -65,6 +71,7 @@ header h1{
 	font-size: 20px;
 	border-radius: 5px;
 	margin: 50px 0;
+	color: #fff;
 }
 .btn-header:hover{
 	background-color: #f7b617;
@@ -90,7 +97,7 @@ header h1{
 	margin-top: 20px;
 }
 /*PORTFOLIO*/
-#portfolio{
+#portfolio, #team{
 	background-color: #eeeeee;
 	height: auto;
 	padding: 50px 0px;
@@ -142,4 +149,42 @@ div[class*="align-"]{
 }
 .align-left img{
 	float: left;
+}
+
+/*TEAM*/
+#team img{
+	border-radius: 100%;
+	border: 8px solid #fff;
+}
+#team a i{
+	font-size: 23px;
+	border-radius: 100%;
+	width: 50px;
+	padding: 15px;
+	height: 50px;
+	background-color: #333333;
+	color: #fff;
+}
+.social-net{
+	margin: 0px 80px;
+}
+.our-team a{
+	text-align: center;
+	margin: 0 auto;
+}
+#team .serif-text{
+	font-family: 'Droid Serif', serif;
+}
+.especial p{
+	padding: 40px 150px;
+	font-family: 'Droid Serif', serif;
+}
+.our-team h4{
+	margin-bottom: 0;
+}
+
+/*SPONSORS*/
+#sponsor{
+	padding: 20px 50px;
+	background-color: #fff;
 }
