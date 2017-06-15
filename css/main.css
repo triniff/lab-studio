@@ -40,7 +40,28 @@ p{
 	font-size: 30px;
 	color: #fec503;
 }
-
+.navbar-toggle{
+	padding: 20px;
+	width: 100px;
+	background-color: #fec503;
+	border: none;
+}
+.navbar-toggle .icon-bar{
+	padding: 0;
+	margin-left: 40px;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #fff;
+}
+.navbar-toggle p{
+	position: absolute;
+	bottom: 7px;
+	left: 7px;
+	color: #fff;
+}
+.navbar-default .navbar-toggle:hover{
+	background-color: #f7b617;
+}
 /* 1 HEADER*/
 header{
 	background-image: url(../img/header-bg.jpg);
@@ -204,6 +225,7 @@ header h1{
 #contact{
 	background-color: #222222;
 	background-image: url(../img/map-image.png);
+	background-size: cover;
 	height: auto;
 	padding: 100px 50px;
 }
@@ -213,6 +235,7 @@ header h1{
 }
 .forms-inputs{
 	margin-top: 50px;
+	width: 100%;
 }
 .form-control{
 	text-align: left;

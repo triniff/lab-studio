@@ -59,4 +59,7 @@
    }else if (distanceY >= 4850 || distanceY <= 4850) {
       menuContact.classList.remove("menu-scroll-hover");
    }
+
+
  });
+

@@ -1,0 +1,35 @@
+@media (max-width: 990px) and (min-width: 1px){
+	.navbar-default{
+		background-color: #222;
+	}
+	.align-right, .align-left{
+		width: 80%;
+		text-align: left;
+		float: right;
+		padding-left: 30px;
+	}
+	.img-about, .circle-info{
+		width: 100px;
+		height: 100px;
+		float: left;
+		position: absolute;
+	}
+	.circle-info h3{
+		font-size: 12px;
+		margin: -8px;
+		padding: 0;
+		line-height: 12px;
+	}
+	.our-team{
+		padding: 40px 0;
+	}
+	.social-net{
+		display: inline-block;
+	}
+	#sub-footer p{
+		margin-bottom: 20px;
+	}
+	.menu-scroll-hover{
+		background-color: transparent;
+	}
+}
