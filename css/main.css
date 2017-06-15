@@ -232,3 +232,16 @@ header h1{
 	padding: 10px;
 	margin: -10px 10px;
 }
+
+/*SCROLL MENU*/
+.scroll-menu{
+	background-color: #222;
+    padding: 10px 0;
+}
+.scroll-menu .navbar-brand{
+	font-size: 25px;
+}
+.menu-scroll-hover{
+	background-color: #fed136;
+	border-radius: 5px;
+}
